@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Suite">
+    <test name="User API Tests">
+        <classes>
+<!--            <class name="com.api.tests.UserTests"/>-->
+            <class name="com.api.tests.PetTests"/>
+        </classes>
+    </test>
+</suite>
