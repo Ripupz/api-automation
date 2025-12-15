@@ -43,7 +43,7 @@ public class PetTests {
 
     @Test
     public void testGetPetByIdSuccess() {
-        Long petId = 20L;
+        Long petId = 123L;
 
         Response res = client.getPetById(petId);
         System.out.println(res.asString());
